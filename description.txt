@@ -1,0 +1,14 @@
+This is a mod which adds "Thunderfury, Blessed Blade of the Windseeker" from World of Warcraft. The sword itself and its projectile have 80 damage, with around the same average dps as the terrablade; it has a special debuff to enemies, though, which reduce their defense by 15(similar to ichor), and the projectile is good in some situations. The sword has two crafting recipes:
+
+Crafting Recipe 1:
+- Enchanted Sword
+- Arkhalis
+(Must be crafted at a demon altar)
+
+Crafting Recipe 2:
+- Terrablade
+- Brand of the Inferno
+- Broken Hero Sword
+(Must be crafted at a demon altar)
+
+... Now you can finally fulfill your dreams of spamming chat!

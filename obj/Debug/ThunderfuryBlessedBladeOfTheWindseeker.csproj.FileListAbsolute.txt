@@ -1,0 +1,4 @@
+C:\Users\Michael Srouji\Documents\My Games\Terraria\ModLoader\Mod Sources\Thunderfury, Blessed Blade of the Windseeker\bin\Debug\MOD.exe.config
+C:\Users\Michael Srouji\Documents\My Games\Terraria\ModLoader\Mod Sources\Thunderfury, Blessed Blade of the Windseeker\bin\Debug\ThunderfuryBlessedBladeOfTheWindseeker.exe.config
+C:\Users\Michael Srouji\Documents\My Games\Terraria\ModLoader\Mod Sources\ThunderfuryBlessedBladeOfTheWindseeker\bin\Debug\ThunderfuryBlessedBladeOfTheWindseeker.exe.config
+C:\Users\Michael Srouji\Documents\My Games\Terraria\ModLoader\Mod Sources\ThunderfuryBlessedBladeOfTheWindseeker\obj\Debug\ThunderfuryBlessedBladeOfTheWindseeker.csprojResolveAssemblyReference.cache
