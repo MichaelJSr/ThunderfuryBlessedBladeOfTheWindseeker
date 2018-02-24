@@ -31,7 +31,7 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Items.Weapons
                 item.autoReuse = true;
                 item.useTurn = true;
                 item.shoot = mod.ProjectileType("Thunder"); //What the item shoots, retains an int value
-                item.shootSpeed = 40f; //How fast the projectile fires
+                item.shootSpeed = 18f; //How fast the projectile fires
         }
 
             public override void AddRecipes()
@@ -49,9 +49,6 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Items.Weapons
                 recipe.AddTile(TileID.DemonAltar);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
-        }
-        public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
-        {
         }
     }
 }

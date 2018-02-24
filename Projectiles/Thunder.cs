@@ -16,8 +16,8 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Projectiles //We need this to b
         {
             projectile.width = 16; //Set the hitbox width
             projectile.height = 16; //Set the hitbox height
-            projectile.timeLeft = 60; //The amount of time the projectile is alive for
-            projectile.penetrate = -1; //Tells the game how many enemies it can hit before being destroyed
+            projectile.timeLeft = 120; //The amount of time the projectile is alive for
+            projectile.penetrate = 20; //Tells the game how many enemies it can hit before being destroyed
             projectile.friendly = true; //Tells the game whether it is friendly to players/friendly npcs or not
             projectile.hostile = false; //Tells the game whether it is hostile to players or not
             projectile.tileCollide = false; //Tells the game whether or not it can collide with a tile
