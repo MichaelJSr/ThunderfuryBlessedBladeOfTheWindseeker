@@ -14,6 +14,7 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Buff
             Main.buffNoSave[Type] = true;
             longerExpertDebuff = true;
         }
+
         public override void Update(NPC npc, ref int buffIndex)
         {
             int num1 = Dust.NewDust(npc.position, npc.width, npc.height, 124);    //this is the dust/flame effect that will apear on npc or player if is hit by this buff  
@@ -21,6 +22,15 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Buff
             Main.dust[num1].velocity *= 1f; //the dust velocity
             Main.dust[num1].noGravity = true;
             npc.defense -= 15;
+        }
+
+        public override void Update(Player player, ref int buffIndex)
+        {
+            int num1 = Dust.NewDust(player.position, player.width, player.height, 124);    //this is the dust/flame effect that will apear on npc or player if is hit by this buff  
+            Main.dust[num1].scale = 1f; //the dust scale , the higher is the value the large is the dust
+            Main.dust[num1].velocity *= 1f; //the dust velocity
+            Main.dust[num1].noGravity = true;
+            player.statDefense -= 15;
         }
     }
 }

@@ -45,6 +45,7 @@ namespace ThunderfuryBlessedBladeOfTheWindseeker.Items.Weapons
                 recipe = new ModRecipe(mod);
                 recipe.AddIngredient(ItemID.TerraBlade, 1);
                 recipe.AddIngredient(ItemID.DD2SquireDemonSword, 1);
+                recipe.AddIngredient(ItemID.DD2SquireBetsySword, 1);
                 recipe.AddIngredient(ItemID.BrokenHeroSword, 1);
                 recipe.AddTile(TileID.DemonAltar);
                 recipe.SetResult(this);

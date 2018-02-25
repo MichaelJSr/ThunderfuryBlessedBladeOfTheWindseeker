@@ -8,6 +8,7 @@ Crafting Recipe 1:
 Crafting Recipe 2:
 - Terrablade
 - Brand of the Inferno
+- Flying Dragon
 - Broken Hero Sword
 (Must be crafted at a demon altar)
 
